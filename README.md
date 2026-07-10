@@ -30,8 +30,8 @@ novoid ./src
 
 ## What It Detects
 
-- **Unused functions** — functions that are defined but never called anywhere in the file.
-- **Unused variables** — variables that are assigned but never read or referenced.
+- **Unused functions** - functions that are defined but never called anywhere in the file.
+- **Unused variables** - variables that are assigned but never read or referenced.
 
 ## Example Output
 
@@ -47,7 +47,7 @@ novoid report for: main.py
 When no issues are found:
 
 ```
-✔  main.py — no dead code detected.
+✔  main.py - no dead code detected.
 ```
 
 ## Development
@@ -65,4 +65,4 @@ Pull requests are welcome at [https://github.com/Madhav703/novoid](https://githu
 
 ## License
 
-MIT — see [LICENSE](https://github.com/Madhav703/novoid/blob/main/LICENSE).
+See [LICENSE](https://github.com/Madhav703/novoid/blob/main/LICENSE).
