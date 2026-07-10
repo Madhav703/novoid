@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novoid"
+version = "0.1.0"
+description = "A minimalist static analysis tool to detect dead code and unused definitions in Python."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "click>=8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Madhav703/novoid"
+Repository = "https://github.com/Madhav703/novoid"
+Issues = "https://github.com/Madhav703/novoid/issues"
+
+[project.scripts]
+novoid = "novoid.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["novoid*"]
