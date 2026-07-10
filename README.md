@@ -65,4 +65,4 @@ Pull requests are welcome at [https://github.com/Madhav703/novoid](https://githu
 
 ## License
 
-See [LICENSE](https://github.com/Madhav703/novoid/blob/main/LICENSE).
+See [LICENSE](https://github.com/Madhav703/novoid/blob/main/LICENSE)
