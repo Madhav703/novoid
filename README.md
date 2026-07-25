@@ -1,8 +1,13 @@
-# novoid
+<div align="center">
+
+![Novoid](/novoid_logo.png)
+
 
 [![PyPI](https://img.shields.io/pypi/v/novoid)](https://pypi.org/project/novoid/)
 [![GitHub](https://img.shields.io/badge/github-Madhav703%2Fnovoid-blue?logo=github)](https://github.com/Madhav703/novoid)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Madhav703/novoid/blob/main/LICENSE)
+
+</div>
 
 A minimalist static analysis tool to detect dead code and unused definitions in Python source files.
 
