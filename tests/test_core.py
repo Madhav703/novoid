@@ -1,5 +1,4 @@
-import pytest
-from novoid.core import analyze_source, DeadCodeItem
+from novoid.core import analyze_source
 
 
 UNUSED_VARIABLE_SOURCE = """
